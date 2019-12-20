@@ -1,0 +1,32 @@
+{
+  "name": "transmission_service",
+  "version": "0.0.1",
+  "description": "A flexible service that creates a web server for transferring files over LAN",
+  "main": "app.js",
+  "dependencies": {
+    "formidable": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nabil-otsmane/transmission_service.git"
+  },
+  "keywords": [
+    "upload",
+    "download",
+    "node",
+    "web_server",
+    "service",
+    "express",
+ "automatization"
+  ],
+  "author": "Nabil OTSMANE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nabil-otsmane/transmission_service/issues"
+  },
+  "homepage": "https://github.com/nabil-otsmane/transmission_service#readme"
+}
