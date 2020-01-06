@@ -2,11 +2,19 @@
   "name": "transmission_service",
   "version": "0.0.1",
   "description": "A flexible service that creates a web server for transferring files over LAN",
-  "main": "app.js",
-  "dependencies": {
-    "formidable": "^1.2.1"
+  "main": "bin/index.js",
+  "bin": {
+    "file-tranfert": "./bin/index.js"
   },
-  "devDependencies": {},
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "formidable": "^1.2.1",
+    "yargs": "^15.1.0"
+  },
+  "devDependencies": {
+    "@types/yargs": "^13.0.4"
+  },
   "scripts": {
     "test": "jasmine"
   },
@@ -21,7 +29,7 @@
     "web_server",
     "service",
     "express",
- "automatization"
+    "automatization"
   ],
   "author": "Nabil OTSMANE",
   "license": "ISC",
