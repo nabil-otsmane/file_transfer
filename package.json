@@ -8,8 +8,8 @@
   },
   "dependencies": {
     "chalk": "^3.0.0",
-    "dotenv": "^8.2.0",
-    "formidable": "^1.2.1",
+    "express": "^4.17.1",
+    "tus-node-server": "^0.3.2",
     "yargs": "^15.1.0"
   },
   "devDependencies": {
