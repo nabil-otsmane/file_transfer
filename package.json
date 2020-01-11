@@ -8,8 +8,9 @@
   },
   "dependencies": {
     "chalk": "^3.0.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.0.1",
     "express": "^4.17.1",
-    "tus-node-server": "^0.3.2",
     "yargs": "^15.1.0"
   },
   "devDependencies": {
@@ -20,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nabil-otsmane/transmission_service.git"
+    "url": "git+https://github.com/nabil-otsmane/file_transfer.git"
   },
   "keywords": [
     "upload",
@@ -34,7 +35,7 @@
   "author": "Nabil OTSMANE",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nabil-otsmane/transmission_service/issues"
+    "url": "https://github.com/nabil-otsmane/file_transfer/issues"
   },
   "homepage": "https://github.com/nabil-otsmane/transmission_service#readme"
 }

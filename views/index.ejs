@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Upload Form</title>
+        <script type="text/javascript" src="/js/tus.js"></script>
+    </head>
+    <body>
+        <form action="fileupload" method="GET" enctype="multipart/form-data">
+            <input type="file" id="input" /><br />
+        </form>
+        <script type="text/javascript">
+            const host = "<%= HOST %>";
+        </script>
+        <script type="text/javascript" src="/js/main.js"></script>
+    </body>
+</html>
